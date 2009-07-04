@@ -1,0 +1,40 @@
+#summary General information about this repository.
+#labels Phase-Implementation
+
+== Svn Folder Structure ==
+
+Description of the folders in this repository.
+
+*/projects* - Root folder for the projects.
+
+*/projects/projectName* - Each project has its folder.
+
+*/projects/projectName/trunk* - Main trunk of the project ([http://en.wikipedia.org/wiki/Revision_control Revision Control]).
+
+*/projects/projectName/trunk/project-netbeans6.5* - Project folder of a specific IDE.
+
+*/projects/projectName/trunk/src* - Source folder.
+
+*/projects/projectName/trunk/test* - Test folder.
+
+*/support* - Root folder for additional files.
+
+*/support/netbeans* - Shared information for Netbeans projects.
+
+*/support/netbeans/libInfo* - Shared information about libraries.
+
+*/support/licenses* - Licenses.
+
+*/support/libs* - Folder for libraries used in the projects.
+
+*/support/libs/ancora* - Name of the library.
+
+*/support/libs/ancora/jar* - Jars of the library.
+
+*/support/libs/ancora/doc* - Documentation of the library (ex.: Javadoc).
+
+== Wiki Pages ==
+
+Description of some of the pages in this wiki:
+
+*Starting a...* - Steps for starting something related to the repository (ex.: a new NetBeans project, a new wiki page for a project...)
