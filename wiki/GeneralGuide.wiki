@@ -1,6 +1,9 @@
 #summary General information about this repository.
 #labels Phase-Implementation
 
+  * *Svn Folder Structure*
+  * *Wiki Pages*
+
 == Svn Folder Structure ==
 
 Short description of the folders in this repository.
@@ -37,4 +40,8 @@ Short description of the folders in this repository.
 
 Description of some of the pages in this wiki:
 
-*Starting a...* - Steps for starting something related to the repository (ex.: a new NetBeans project, a new wiki page for a project...)
+*Starting* - Steps for starting something related to the repository (ex.: a new NetBeans project, a new wiki page for a project...).
+
+*BestPractices* - Coding practices.
+
+*TemplateProject* - Template page for projects.
