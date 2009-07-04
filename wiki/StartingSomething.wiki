@@ -3,12 +3,24 @@
 
 ==Starting a new project with Netbeans==
 
-*Created the folder structure*
+*Created the basic folder structure*
   * Create /projects/Projectname
   * Create /projects/Projectname/trunk
   * Create /projects/Projectname/trunk/project-netbeansX.Y (where X.Y is the version of Netbeans with which the project is created) 
   * Create /projects/Projectname/trunk/src (for the source files)
   * Create /projects/Projectname/trunk/test (for the unit test files)
 
+*Create folders for Java packages*
+
+  * Create src/org/ancora/projectpackage (several projects may share the same package)
+  * Create test/org/ancora/projectpackage
+
+
+
+==Installing Netbeans==
+
+*Download the program*
+  * Can be downloaded from here: [http://www.netbeans.org/downloads/index.html Netbeans]
+  * The Java SE version is enough.
 
 ==Creating a Netbeans library==
