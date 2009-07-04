@@ -40,7 +40,7 @@ Short description of the folders in this repository.
 
 Description of some of the pages in this wiki:
 
-*StartingSomething* - Steps for starting something related to the repository (ex.: a new NetBeans project, a new wiki page for a project...).
+*StartingSomething* - Steps for starting something related to the repository (ex.: a new Netbeans project, a new wiki page for a project...).
 
 *BestPractices* - Coding practices.
 
