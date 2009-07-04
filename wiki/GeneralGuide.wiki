@@ -1,4 +1,4 @@
-#summary General information about this repository.
+#summary General information about this repository
 #labels Phase-Implementation
 
   * *Svn Folder Structure*
