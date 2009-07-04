@@ -1,0 +1,16 @@
+#summary Template for projects' wiki pages
+#labels Template
+
+= Release X.X (Revision YYYY) =
+
+==Dependencies==
+
+What jars does this project depends on?
+
+==New==
+
+==Changed==
+
+==Removed==
+
+[Download Link]
