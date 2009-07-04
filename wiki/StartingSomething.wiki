@@ -1,0 +1,7 @@
+#summary Steps for starting something related to the repository (ex.: a new Netbeans project).
+#labels Phase-Implementation
+
+==Creating a Netbeans project==
+
+==Creating a Netbeans library==
+
