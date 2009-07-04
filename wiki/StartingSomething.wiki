@@ -4,11 +4,11 @@
 ==Starting a new project with Netbeans==
 
 *Created the folder structure*
-  * Create /projects/ProjectName
-  * Create /projects/ProjectName/trunk
-  * Create /projects/ProjectName/trunk/project-netbeansX.Y (where X.Y is the version of Netbeans with which the project is created) 
-  * Create /projects/ProjectName/trunk/src (for the source files)
-  * Create /projects/ProjectName/trunk/test (for the unit test files)
+  * Create /projects/Projectname
+  * Create /projects/Projectname/trunk
+  * Create /projects/Projectname/trunk/project-netbeansX.Y (where X.Y is the version of Netbeans with which the project is created) 
+  * Create /projects/Projectname/trunk/src (for the source files)
+  * Create /projects/Projectname/trunk/test (for the unit test files)
 
 
 ==Creating a Netbeans library==
