@@ -1,7 +1,14 @@
 #summary Steps for starting something related to the repository (ex.: a new Netbeans project).
 #labels Phase-Implementation
 
-==Creating a Netbeans project==
+==Starting a new project with Netbeans==
+
+*Created the folder structure*
+  * Create /projects/ProjectName
+  * Create /projects/ProjectName/trunk
+  * Create /projects/ProjectName/trunk/project-netbeansX.Y (where X.Y is the version of Netbeans with which the project is created) 
+  * Create /projects/ProjectName/trunk/src (for the source files)
+  * Create /projects/ProjectName/trunk/test (for the unit test files)
+
 
 ==Creating a Netbeans library==
-
