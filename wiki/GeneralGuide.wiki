@@ -3,7 +3,7 @@
 
 == Svn Folder Structure ==
 
-Description of the folders in this repository.
+Short description of the folders in this repository.
 
 */projects* - Root folder for the projects.
 
