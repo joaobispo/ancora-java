@@ -1,6 +1,10 @@
 #summary Template for projects' wiki pages
 #labels Template
 
+= Description =
+
+Quick description of what is supposed for this project to do.
+
 = Release X.X (Revision YYYY) =
 
 ==Dependencies==
