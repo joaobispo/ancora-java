@@ -9,7 +9,7 @@
 == Checking-out the projects with TortoiseSVN in Windows ==
 
   * Download the program [http://tortoisesvn.net/downloads here] and install.
-  * Choose a folder (ex.: D:\Ancora\GoogleJavaProjects). Inside the folder, right-click in an empty space and choose "SVN Checkout...". Choose as the URL of repository, "https://ancora-java.googlecode.com/svn/trunk/". When asked, enter your username and password (you can see your code.google password here: [http://code.google.com/hosting/settings]).
+  * Choose a folder (ex.: D:\Ancora\Javaprojects). Inside the folder, right-click in an empty space and choose "SVN Checkout...". Choose as the URL of repository, "https://ancora-java.googlecode.com/svn/trunk/". When asked, enter your username and password (you can see your code.google password here: [http://code.google.com/hosting/settings]).
 
 ==Starting a new project with Netbeans==
 
