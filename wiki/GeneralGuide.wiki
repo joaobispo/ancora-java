@@ -1,8 +1,13 @@
 #summary General information about this repository
 #labels Phase-Implementation
 
+  * *Getting Started*
   * *Svn Folder Structure*
   * *Wiki Pages*
+
+== Getting Started ==
+
+  * Check-out the project files using a Subversion control (in StartingSomething there are instructions for Windows using TortoiseSVN).
 
 == Svn Folder Structure ==
 
