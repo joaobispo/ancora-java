@@ -1,9 +1,12 @@
 #summary Steps for starting something related to the repository (ex.: a new Netbeans project).
 #labels Phase-Implementation
 
+  * *Checking-out the projects with TortoiseSVN in Windows*
   * *Starting a new project with Netbeans*
   * *Installing Netbeans*
   * *Creating a Netbeans library*
+
+== Checking-out the projects with TortoiseSVN in Windows ==
 
 ==Starting a new project with Netbeans==
 
@@ -13,12 +16,27 @@
   * Create /projects/Projectname/trunk/project-netbeansX.Y (where X.Y is the version of Netbeans with which the project is created) 
   * Create /projects/Projectname/trunk/src (for the source files)
   * Create /projects/Projectname/trunk/test (for the unit test files)
+  * If the project will have a Main class, create /projects/Projectname/trunk/run
 
 *Create folders for Java packages*
 
   * Create src/org/ancora/projectpackage (several projects may share the same package)
   * Create test/org/ancora/projectpackage
 
+*Create the Netbeans project*
+
+  * In Netbeans, choose "File->New Project..."
+  * 1. Choose "Java" as Category, and "Java Project with Existing Sources" as Project.
+  * 2. Call it Projectname and choose as project folder "/projects/Projectname/trunk/project-netbeansX.Y". Enable the option "Use Dedicated Folder for Storing Libraries", and choose as Libraries Folder "/support/netbeans/libInfo" (make sure it is a relative path).
+  * 3. Choose for Source Package folder, "/projects/Projectname/trunk/src", and for Test Package folder, "/projects/Projectname/trunk/test". 
+  * 4. Finish.
+
+*Making sure the project is OK and committing it*
+
+  * In "Projects" view, right-click in the project and choose "Properties".
+  * Inside Project Properties: It seems Netbeans doesn't choose the right Libraries folder when creating a new project. A way to quickly check is to click on "Add Library...". If it only appears three libraries (for JUnit and CopyLibs), choose "Browse..." next to "Libraries Folder" and point to the correct folder (check-out_folder/support/netbeans/libInfo).
+  * Inside Project Properties: If the project will have a Main class, in "Run->Working Directory" choose "/projects/Projectname/trunk/run".
+  * In "Projects" view, right-click in the project and choose "Subversion->Commit...". Write something meaningful as Commit Message (ex.: Netbeans project structure for project Projectname) and click "Commit" Enter your username and password if necessary (you can see your code.google password here: [http://code.google.com/hosting/settings]).
 
 
 ==Installing Netbeans==
