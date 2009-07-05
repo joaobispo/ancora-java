@@ -49,6 +49,6 @@
 
   * Netbeans already has built-in support for Subversion through plugins, but the plugin might not be up-to-date. This can cause problems, as when Subversion went from version 1.5 to 1.6 (Netbeans couldn't execute subversion commands with 1.6 projects).
   * If not present, download binaries for Subversion. For Windows, last link in this page is fine: [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Windows Apache Subversion]. Unzip them to a folder (ex.: C:\Program Files\Subversion 1.6\).
-  *In NetBeans, go to "Tools->Options->Miscellaneous->Versioning->Subversion->Path to SVN executable File" and choose the folder with Subversion binaries (ex.: C:\Program Files\Subversion 1.6\bin). 
+  *In Netbeans, go to "Tools->Options->Miscellaneous->Versioning->Subversion->Path to SVN executable File" and choose the folder with Subversion binaries (ex.: C:\Program Files\Subversion 1.6\bin). 
 
 ==Creating a Netbeans library==
