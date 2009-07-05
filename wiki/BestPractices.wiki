@@ -10,5 +10,4 @@
 
 ==Java IO==
 
-*File instead of String for filenames* - In the code create a File object as soon as possible, to avoid using Strings to handle filenames. Ref: [http://commons.apache.org
-/io/bestpractices.html Commons IO - Best Practices]
+*File instead of String for filenames* - In the code create a File object as soon as possible, to avoid using Strings to handle filenames. Ref: [http://commons.apache.org/io/bestpractices.html Commons IO - Best Practices]
