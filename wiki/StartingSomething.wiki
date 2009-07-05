@@ -1,6 +1,10 @@
 #summary Steps for starting something related to the repository (ex.: a new Netbeans project).
 #labels Phase-Implementation
 
+  * *Starting a new project with Netbeans*
+  * *Installing Netbeans*
+  * *Creating a Netbeans library*
+
 ==Starting a new project with Netbeans==
 
 *Created the basic folder structure*
@@ -22,5 +26,9 @@
 *Download the program*
   * Can be downloaded from here: [http://www.netbeans.org/downloads/index.html Netbeans]
   * The Java SE version is enough.
+
+*Installing Subversion binaries (if not present)*
+
+  * Netbeans already has built-in support for Subversion through plugins, but the plugin might not be up-to-date. This can cause problems, as when Subversion went from version 1.5 to 1.6 (Netbeans couldn't execute subversion commands with 1.6 projects).
 
 ==Creating a Netbeans library==
