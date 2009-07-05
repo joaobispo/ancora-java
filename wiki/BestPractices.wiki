@@ -1,6 +1,14 @@
 #summary Coding practices
 #labels Phase-Implementation
 
+*Documentation*
+*Java IO*
+
+==Documentation==
+
+*TOC at the beginning of a Wiki page.
+
 ==Java IO==
 
-*File instead of String for filenames* - In the code create a File object as soon as possible, to avoid using Strings to handle filenames. Ref: [http://commons.apache.org/io/bestpractices.html Commons IO - Best Practices]
+*File instead of String for filenames* - In the code create a File object as soon as possible, to avoid using Strings to handle filenames. Ref: [http://commons.apache.org
+/io/bestpractices.html Commons IO - Best Practices]
