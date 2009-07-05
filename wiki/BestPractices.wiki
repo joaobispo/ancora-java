@@ -6,7 +6,7 @@
 
 ==Documentation==
 
-*TOC at the beginning of a Wiki page.
+*Table of Contents (TOC) at the beginning of a Wiki page.
 
 ==Java IO==
 
