@@ -2,14 +2,27 @@
 #labels Phase-Implementation
 
   * *Checking-out the projects with TortoiseSVN in Windows*
-  * *Starting a new project with Netbeans*
   * *Installing Netbeans*
+  * *Starting a new project with Netbeans*
+  * *Automatically adding a license to the header of a file created in Netbeans*
   * *Creating a Netbeans library*
 
 == Checking-out the projects with TortoiseSVN in Windows ==
 
   * Download the program [http://tortoisesvn.net/downloads here] and install.
   * Choose a folder (ex.: D:\Ancora\Javaprojects). Inside the folder, right-click in an empty space and choose "SVN Checkout...". Choose as the URL of repository, "https://ancora-java.googlecode.com/svn/trunk/". When asked, enter your username and password (you can see your code.google password here: [http://code.google.com/hosting/settings]).
+
+==Installing Netbeans==
+
+*Download the program*
+  * Can be downloaded from here: [http://www.netbeans.org/downloads/index.html Netbeans]
+  * The Java SE version is enough.
+
+*Associte Subversion binaries in Netbeans*
+
+  * Netbeans already has built-in support for Subversion through plugins, but the plugin might not be up-to-date. This can cause problems, as when Subversion went from version 1.5 to 1.6 (Netbeans couldn't execute subversion commands with 1.6 projects).
+  * If not present, download binaries for Subversion. For Windows, last link in this page is fine: [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Windows Apache Subversion]. Unzip them to a folder (ex.: C:\Program Files\Subversion 1.6\).
+  *In Netbeans, go to "Tools->Options->Miscellaneous->Versioning->Subversion->Path to SVN executable File" and choose the folder with Subversion binaries (ex.: C:\Program Files\Subversion 1.6\bin). 
 
 ==Starting a new project with Netbeans==
 
@@ -42,16 +55,8 @@
   * In "Projects" view, right-click in the project and choose "Subversion->Commit...". Write something meaningful as Commit Message (ex.: Netbeans project structure for project Projectname) and click "Commit". Enter your username and password if necessary (you can see your code.google password here: [http://code.google.com/hosting/settings]).
 
 
-==Installing Netbeans==
 
-*Download the program*
-  * Can be downloaded from here: [http://www.netbeans.org/downloads/index.html Netbeans]
-  * The Java SE version is enough.
 
-*Associte Subversion binaries in Netbeans*
-
-  * Netbeans already has built-in support for Subversion through plugins, but the plugin might not be up-to-date. This can cause problems, as when Subversion went from version 1.5 to 1.6 (Netbeans couldn't execute subversion commands with 1.6 projects).
-  * If not present, download binaries for Subversion. For Windows, last link in this page is fine: [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Windows Apache Subversion]. Unzip them to a folder (ex.: C:\Program Files\Subversion 1.6\).
-  *In Netbeans, go to "Tools->Options->Miscellaneous->Versioning->Subversion->Path to SVN executable File" and choose the folder with Subversion binaries (ex.: C:\Program Files\Subversion 1.6\bin). 
+== Automatically adding a license to the header of a file created in Netbeans ==
 
 ==Creating a Netbeans library==
