@@ -1,8 +1,8 @@
 #summary Coding practices
 #labels Phase-Implementation
 
-*Documentation*
-*Java IO*
+  * Documentation
+  * Java IO
 
 ==Documentation==
 
