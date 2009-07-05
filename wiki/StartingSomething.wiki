@@ -8,6 +8,9 @@
 
 == Checking-out the projects with TortoiseSVN in Windows ==
 
+  * Download the program [http://tortoisesvn.net/downloads here] and install.
+  * Choose a folder (ex.: D:\Ancora\GoogleJavaProjects). Inside the folder, right-click in an empty space and choose "SVN Checkout...". Choose as the URL of repository, "https://ancora-java.googlecode.com/svn/trunk/". When asked, enter your username and password (you can see your code.google password here: [http://code.google.com/hosting/settings]).
+
 ==Starting a new project with Netbeans==
 
 *Created the basic folder structure*
@@ -36,7 +39,7 @@
   * In "Projects" view, right-click in the project and choose "Properties".
   * Inside Project Properties: It seems Netbeans doesn't choose the right Libraries folder when creating a new project. A way to quickly check is to click on "Add Library...". If it only appears three libraries (for JUnit and CopyLibs), choose "Browse..." next to "Libraries Folder" and point to the correct folder (check-out_folder/support/netbeans/libInfo).
   * Inside Project Properties: If the project will have a Main class, in "Run->Working Directory" choose "/projects/Projectname/trunk/run".
-  * In "Projects" view, right-click in the project and choose "Subversion->Commit...". Write something meaningful as Commit Message (ex.: Netbeans project structure for project Projectname) and click "Commit" Enter your username and password if necessary (you can see your code.google password here: [http://code.google.com/hosting/settings]).
+  * In "Projects" view, right-click in the project and choose "Subversion->Commit...". Write something meaningful as Commit Message (ex.: Netbeans project structure for project Projectname) and click "Commit". Enter your username and password if necessary (you can see your code.google password here: [http://code.google.com/hosting/settings]).
 
 
 ==Installing Netbeans==
