@@ -18,7 +18,7 @@
   * Can be downloaded from here: [http://www.netbeans.org/downloads/index.html Netbeans]
   * The Java SE version is enough.
 
-*Associte Subversion binaries in Netbeans*
+*Associate Subversion binaries in Netbeans*
 
   * Netbeans already has built-in support for Subversion through plugins, but the plugin might not be up-to-date. This can cause problems, as when Subversion went from version 1.5 to 1.6 (Netbeans couldn't execute subversion commands with 1.6 projects).
   * If not present, download binaries for Subversion. For Windows, last link in this page is fine: [http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100 Windows Apache Subversion]. Unzip them to a folder (ex.: C:\Program Files\Subversion 1.6\).
@@ -37,7 +37,7 @@
 *Create folders for Java packages*
 
   * Create src/org/ancora/projectpackage (several projects may share the same package)
-  * Create test/org/ancora/projectpackage
+  * Create test/org/ancora/projectpackage/test
 
 *Create the Netbeans project*
 
@@ -47,10 +47,10 @@
   * 3. Choose for Source Package folder, "/projects/Projectname/trunk/src", and for Test Package folder, "/projects/Projectname/trunk/test". 
   * 4. Finish.
 
-*Making sure the project is OK and committing it*
+*Make sure the project is OK and commit it*
 
   * In "Projects" view, right-click in the project and choose "Properties".
-  * Inside Project Properties: It seems Netbeans doesn't choose the right Libraries folder when creating a new project. A way to quickly check is to click on "Add Library...". If it only appears three libraries (for JUnit and CopyLibs), choose "Browse..." next to "Libraries Folder" and point to the correct folder (check-out_folder/support/netbeans/libInfo).
+  * Inside Project Properties: It seems that Netbeans, when using relative paths, doesn't choose the right Libraries folder when creating a new project. A way to quickly check is to click on "Add Library...". If it only appears three libraries (for JUnit and CopyLibs), choose "Browse..." next to "Libraries Folder" and point to the correct folder (/support/netbeans/libInfo).
   * Inside Project Properties: If the project will have a Main class, in "Run->Working Directory" choose "/projects/Projectname/trunk/run".
   * In "Projects" view, right-click in the project and choose "Subversion->Commit...". Write something meaningful as Commit Message (ex.: Netbeans project structure for project Projectname) and click "Commit". Enter your username and password if necessary (you can see your code.google password here: [http://code.google.com/hosting/settings]).
 
