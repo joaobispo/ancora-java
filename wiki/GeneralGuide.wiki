@@ -35,11 +35,11 @@ Short description of the folders in this repository.
 
 */support/libs* - Folder for libraries used in the projects.
 
-*/support/libs/ancora* - Name of the library.
+*/support/libs/ancoraCommons* - Name of the library.
 
-*/support/libs/ancora/jar* - Jars of the library.
+*/support/libs/ancoraCommons/jar* - Jars of the library.
 
-*/support/libs/ancora/doc* - Documentation of the library (ex.: Javadoc).
+*/support/libs/ancoraCommons/doc* - Documentation of the library (ex.: Javadoc).
 
 == Wiki Pages ==
 
