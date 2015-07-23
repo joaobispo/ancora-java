@@ -1,0 +1,49 @@
+  * **Getting Started**
+  * **Svn Folder Structure**
+  * **Wiki Pages**
+
+## Getting Started ##
+
+  * Check-out the project files using a Subversion control (in StartingSomething there are instructions for Windows using TortoiseSVN).
+
+## Svn Folder Structure ##
+
+Short description of the folders in this repository.
+
+**/projects** - Root folder for the projects.
+
+**/projects/projectName** - Each project has its folder.
+
+**/projects/projectName/trunk** - Main trunk of the project ([Revision Control](http://en.wikipedia.org/wiki/Revision_control)).
+
+**/projects/projectName/trunk/project-netbeans6.5** - Project folder of a specific IDE.
+
+**/projects/projectName/trunk/src** - Source folder.
+
+**/projects/projectName/trunk/test** - Test folder.
+
+**/support** - Root folder for additional files.
+
+**/support/netbeans** - Shared information for Netbeans projects.
+
+**/support/netbeans/libInfo** - Shared information about libraries.
+
+**/support/licenses** - Licenses.
+
+**/support/libs** - Folder for libraries used in the projects.
+
+**/support/libs/ancoraCommons** - Name of the library.
+
+**/support/libs/ancoraCommons/jar** - Jars of the library.
+
+**/support/libs/ancoraCommons/doc** - Documentation of the library (ex.: Javadoc).
+
+## Wiki Pages ##
+
+Description of some of the pages in this wiki:
+
+**StartingSomething** - Steps for starting something related to the repository (ex.: a new Netbeans project, a new wiki page for a project...).
+
+**BestPractices** - Coding practices.
+
+**TemplateProject** - Template page for projects.

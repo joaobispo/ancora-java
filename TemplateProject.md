@@ -1,0 +1,17 @@
+# Description #
+
+Quick description of what is supposed for this project to do.
+
+# Release X.X (Revision YYYY) #
+
+## Dependencies ##
+
+What jars does this project depends on?
+
+## New ##
+
+## Changed ##
+
+## Removed ##
+
+`[`Download Link`]`

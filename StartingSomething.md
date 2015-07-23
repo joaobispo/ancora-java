@@ -1,0 +1,60 @@
+  * **Checking-out the projects with TortoiseSVN in Windows**
+  * **Installing Netbeans**
+  * **Starting a new project with Netbeans**
+  * **Automatically adding a license to the header of a file created in Netbeans**
+  * **Creating a Netbeans library**
+
+## Checking-out the projects with TortoiseSVN in Windows ##
+
+  * Download the program [here](http://tortoisesvn.net/downloads) and install.
+  * Choose a folder (ex.: D:\Ancora\Javaprojects). Inside the folder, right-click in an empty space and choose "SVN Checkout...". Choose as the URL of repository, "https://ancora-java.googlecode.com/svn/trunk/". When asked, enter your username and password (you can see your code.google password here: http://code.google.com/hosting/settings).
+
+## Installing Netbeans ##
+
+**Download the program**
+  * Can be downloaded from here: [Netbeans](http://www.netbeans.org/downloads/index.html)
+  * The Java SE version is enough.
+
+**Associate Subversion binaries in Netbeans**
+
+  * Netbeans already has built-in support for Subversion through plugins, but the plugin might not be up-to-date. This can cause problems, as when Subversion went from version 1.5 to 1.6 (Netbeans couldn't execute subversion commands with 1.6 projects).
+  * If not present, download binaries for Subversion. For Windows, last link in this page is fine: [Windows Apache Subversion](http://subversion.tigris.org/servlets/ProjectDocumentList?folderID=8100). Unzip them to a folder (ex.: C:\Program Files\Subversion 1.6\).
+  * n Netbeans, go to "Tools->Options->Miscellaneous->Versioning->Subversion->Path to SVN executable File" and choose the folder with Subversion binaries (ex.: C:\Program Files\Subversion 1.6\bin).
+
+## Starting a new project with Netbeans ##
+
+**Created the basic folder structure**
+  * Create /projects/Projectname
+  * Create /projects/Projectname/trunk
+  * Create /projects/Projectname/trunk/project-netbeansX.Y (where X.Y is the version of Netbeans with which the project is created)
+  * Create /projects/Projectname/trunk/src (for the source files)
+  * Create /projects/Projectname/trunk/test (for the unit test files)
+  * If the project will have a Main class, create /projects/Projectname/trunk/run
+
+**Create folders for Java packages**
+
+  * Create src/org/ancora/projectpackage (several projects may share the same package)
+  * Create test/org/ancora/projectpackage/test
+
+**Create the Netbeans project**
+
+  * In Netbeans, choose "File->New Project..."
+  * 1. Choose "Java" as Category, and "Java Project with Existing Sources" as Project.
+  * 2. Call it Projectname and choose as project folder "/projects/Projectname/trunk/project-netbeansX.Y". Enable the option "Use Dedicated Folder for Storing Libraries", and choose as Libraries Folder "/support/netbeans/libInfo" (make sure it is a relative path).
+  * 3. Choose for Source Package folder, "/projects/Projectname/trunk/src", and for Test Package folder, "/projects/Projectname/trunk/test".
+  * 4. Finish.
+
+**Make sure the project is OK and commit it**
+
+  * In "Projects" view, right-click in the project and choose "Properties".
+  * Inside Project Properties: It seems that Netbeans, when using relative paths, doesn't choose the right Libraries folder when creating a new project. A way to quickly check is to click on "Add Library...". If it only appears three libraries (for JUnit and CopyLibs), choose "Browse..." next to "Libraries Folder" and point to the correct folder (/support/netbeans/libInfo).
+  * Inside Project Properties: If the project will have a Main class, in "Run->Working Directory" choose "/projects/Projectname/trunk/run".
+  * In "Projects" view, right-click in the project and choose "Subversion->Commit...". Write something meaningful as Commit Message (ex.: Netbeans project structure for project Projectname) and click "Commit". Enter your username and password if necessary (you can see your code.google password here: http://code.google.com/hosting/settings).
+  * If the folder "/projects/Projectname/trunk/run" was created, it needs to be commited manually (ex.: in Windows with TortoiseSVN, right-click in the folder "run" and choose "Commit...").
+
+
+
+
+## Automatically adding a license to the header of a file created in Netbeans ##
+
+## Creating a Netbeans library ##
